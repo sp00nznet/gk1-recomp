@@ -1,0 +1,17 @@
+{
+  "title": "Gabriel Knight: Sins of the Fathers",
+  "repo": "sp00nznet/gk1-recomp",
+  "accent": "#b02a2a",
+  "note": {
+    "default": "The build takes about 5 minutes and 1.5 GB. Python (with pefile and capstone) and the Visual Studio Build Tools with clang-cl (about 4 GB, 15 to 30 minutes more) are installed if they are missing. Choose the DOS CD's drive, a folder copy of it, or an .iso. Early: it plays day 1 in the bookshop, with no sound yet."
+  },
+  "game": {
+    "name": "Gabriel Knight: Sins of the Fathers (DOS CD)",
+    "files": ["SIERRA.EXE|sierra.exe|*.iso"]
+  },
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-gk1", "dir": "pcrecomp" }],
+  "setup": {
+    "default": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
+  },
+  "play": "Gabriel Knight.lnk"
+}

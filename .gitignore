@@ -1,0 +1,26 @@
+# Your copy of the game (Gabriel Knight (c) 1993 Sierra On-Line). Never committed.
+game/
+*.exe
+*.EXE
+*.000
+*.SFX
+*.ALT
+*.AUD
+*.DRV
+*.drv
+
+# Lifted output and analysis: derived from the game binary, never distributed
+src/recomp/gen/
+analysis/
+work/
+
+# Builds
+build/
+build-*/
+__pycache__/
+
+# Made by Setup.cmd, and run output
+setup.log
+/*.lnk
+*.mp4
+*.bmp
