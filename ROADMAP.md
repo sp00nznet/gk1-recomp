@@ -10,9 +10,10 @@
   shape of Theme Park's `tools/conformance.py`. Without the game it prints a
   SKIP line for netlab's `QA_SKIP`.
 - Headless recording: `--headless --record out.mp4` (frames piped to ffmpeg).
-- Run `Setup.cmd` end to end on a clean machine with the CD.
 
 ## Then
+- Linux and macOS: a `setup.sh` that really builds (clang-cl/lld cross
+  build, or Wine), once the host is tested there.
 - Sound: lift `SBPRO.DRV`/`DACBLAST.DRV` (they lift the same way) against an
   emulated Sound Blaster in dos32, or replace the drivers at their API with a
   host mixer; speech from `AUD\RESOURCE.AUD`.

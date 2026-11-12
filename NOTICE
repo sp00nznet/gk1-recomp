@@ -1,9 +1,0 @@
-Gabriel Knight recomp
-
-run_lift.py, build.cmd, Setup.cmd and the host (src/runtime/main.c) are
-derived from the Wacky Wheels recomp (https://github.com/sp00nznet/wackywheels-recomp),
-itself from the Theme Park recomp; the DOS/4GW host is pcrecomp's dos32
-(https://github.com/sp00nznet/pcrecomp). All MIT.
-
-Gabriel Knight: Sins of the Fathers is (c) 1993 Sierra On-Line. No part of the
-game is included.

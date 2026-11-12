@@ -4,6 +4,24 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+- `CONTRIBUTING.md`, `CONTRIBUTORS.md`, `docs/building.md`, `docs/testing.md`.
+- `setup.sh`, which says there is no Linux or macOS build yet and stops.
+- An `installer` workflow for recomp-launcher, run by hand only.
+
+### Changed
+- README in the house order (Getting Started, Status, Screenshots,
+  Documentation, Contributors, License); the step-by-step build and the
+  command line moved to `docs/building.md` and `docs/testing.md`.
+- `NOTICE` is now `NOTICE.md`, saying what the MIT license covers and what it
+  does not.
+
+### Fixed
+- `LICENSE` is plain MIT again: another project's notice had been appended to
+  it.
+
 ## [0.1.0] - 2026-11-12
 
 ### Added
