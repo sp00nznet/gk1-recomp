@@ -9,7 +9,7 @@ game's own scripts and resources run unchanged on the lifted interpreter. No
 emulator, no DOSBox, no ScummVM.
 
 Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain, on
-its **`pcrecomp-gk1`** branch (not yet merged into `main`): its LE front end
+its `main` branch: its LE front end
 lifts the interpreter, and its DOS/4GW host (`runtime/dos32`) answers DOS,
 DPMI, the BIOS, the VGA, the timer, the keyboard and the mouse. The lift
 driver, the build and the host window come from the
@@ -33,7 +33,7 @@ built on your machine from your copy.
 3. Play with the **`Gabriel Knight`** shortcut in that folder.
 
 The script checks for Python 3.10+ (with `pefile` and `capstone`), Git, the
-pcrecomp toolkit (cloned beside this folder on its `pcrecomp-gk1` branch) and
+pcrecomp toolkit (cloned beside this folder) and
 Visual Studio 2022 with clang-cl, and asks before installing any of them. It
 finds the CD in your drives or asks where it is (`Setup.cmd -GameDir E:\`
 skips the question, `-Yes` answers yes to every install), copies it into

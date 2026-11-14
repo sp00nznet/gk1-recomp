@@ -2,7 +2,7 @@
 
 What Gabriel Knight's DOS CD needed, in the order it turned up. Each item says
 where the fix lives: in this repository (`run_lift.py`, `src/runtime/main.c`),
-or in pcrecomp (branch `pcrecomp-gk1`, off `pcrecomp-ingame`), when another
+or in pcrecomp (now on `main`), when another
 game would hit it too.
 
 ## The copy of the game

@@ -12,6 +12,7 @@ All notable changes to this project are documented here. The format follows
 - An `installer` workflow for recomp-launcher, run by hand only.
 
 ### Changed
+- Builds against pcrecomp main; the `pcrecomp-gk1` branch is merged.
 - README in the house order (Getting Started, Status, Screenshots,
   Documentation, Contributors, License); the step-by-step build and the
   command line moved to `docs/building.md` and `docs/testing.md`.

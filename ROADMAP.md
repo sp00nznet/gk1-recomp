@@ -1,8 +1,6 @@
 # Roadmap
 
 ## Next
-- Merge pcrecomp's `pcrecomp-gk1` (drivers loaded at run time, far calls,
-  `pushf`/`popf`) into `main`, and point Setup and the launcher at `main`.
 - Play on through day 1: leave the bookshop, Jackson Square, the map; save and
   restore.
 - A conformance harness (REPO_RULES section 9): boot, title, opening,

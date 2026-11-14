@@ -9,7 +9,7 @@
     "name": "Gabriel Knight: Sins of the Fathers (DOS CD)",
     "files": ["SIERRA.EXE|sierra.exe|*.iso"]
   },
-  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-gk1", "dir": "pcrecomp" }],
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "main", "dir": "pcrecomp" }],
   "setup": {
     "default": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
   },

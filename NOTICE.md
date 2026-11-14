@@ -22,7 +22,7 @@ in this repository and are excluded by `.gitignore`.
 | Path | From | License |
 |---|---|---|
 | `run_lift.py`, `build.cmd`, `Setup.cmd`, `tools/setup.ps1`, `src/runtime/main.c` | our [Wacky Wheels recomp](https://github.com/sp00nznet/wackywheels-recomp), itself from the Theme Park recomp | MIT (ours) |
-| the DOS/4GW host and the LE lifter (not vendored; built from a checkout beside this one) | [pcrecomp](https://github.com/sp00nznet/pcrecomp), branch `pcrecomp-gk1` | MIT (ours) |
+| the DOS/4GW host and the LE lifter (not vendored; built from a checkout beside this one) | [pcrecomp](https://github.com/sp00nznet/pcrecomp), `main` | MIT (ours) |
 
 There is no third-party code in this repository. The interpreter is lifted
 from the game's own `SIERRA.EXE`, not reimplemented: nothing here is taken from

@@ -31,8 +31,7 @@ unusually polished came from somewhere, say where.
 ## Where a fix belongs
 
 - A bug in the lifter, the LE front end or `dos32` belongs in
-  [pcrecomp](https://github.com/sp00nznet/pcrecomp) (today on its
-  `pcrecomp-gk1` branch), not here.
+  [pcrecomp](https://github.com/sp00nznet/pcrecomp), not here.
 - Something only this interpreter does (a seed, a lifted data-object function,
   a driver list) goes in `run_lift.py`, with a comment saying what and why.
 - A wall you got past goes in `docs/bringup.md`: what it looked like, what it
